@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    
+}
+.centralizar-conteudo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* formatação para página cadastrar */
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #17a2b8;
+}
+.btn-info {
+    display: block;
+    margin: 20px auto;
+}
+
+.menu{
+    background-color: #20B5CC;
+    height: 50px; 
+}
+
+.flex-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.links{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-menu > .links >  a {
+    display: inline-block;
+    color: #525252;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 5px;
+}
+
+.btn-sm{
+    height: 35px;
+}
+
+
+.flex-menu > .links > a:hover, .pagAtual{
+    background-color: white;
+    color: #021E31;
+}
+
+.cadastrar{
+    width: 150px !important;
+}
+
+
+
+/* formatação para painel */
+#titulo-painel{
+    color: #090942;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+
+.crud{
+    margin: 8px auto;
+    width: 50%;
+}
+
+.header-painel{
+    background-color: #20B5CC;
+    height: 70px;
+}
+
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-size: 20px;
+    
+}
+
+.flex-header > p{
+    margin:0;
+    padding:0;
+    color: white;
+    text-shadow: 1px 1px 2px #393939;
+}
+
+footer{
+    background-color: rgba(22,122,138,0.78);
+    margin: 250px 0 0;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    text-shadow: 1px 1px 2px #393939;
+    
+}
